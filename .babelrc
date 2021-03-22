@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "screens": "guessNumber/screens",
+          "components": "guessNumber/components"
+        }
+      }
+    ]
+  ]
+}

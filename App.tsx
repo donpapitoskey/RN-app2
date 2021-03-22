@@ -9,8 +9,8 @@
 import React from 'react';
 
 import {StyleSheet, View} from 'react-native';
-import {Header} from './components';
-import {StartGameScreen} from './screens';
+import {Header} from 'components';
+import {StartGameScreen} from 'screens';
 
 const App = () => {
   return (
