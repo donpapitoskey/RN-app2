@@ -6,7 +6,8 @@
         "root": ["./"],
         "alias": {
           "screens": "guessNumber/screens",
-          "components": "guessNumber/components"
+          "components": "guessNumber/components",
+          "constants": "guessNumber/constants"
         }
       }
     ]

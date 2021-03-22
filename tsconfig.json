@@ -14,7 +14,8 @@
     "paths": {
       "*": ["src/*"],
       "screens": ["./screens"],
-      "components": ["./components"]
+      "components": ["./components"],
+      "constants/*": ["./constants/*"]
     }
   },
   "exclude": [
