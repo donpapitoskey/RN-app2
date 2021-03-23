@@ -21,4 +21,8 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
     paddingHorizontal: 15,
   },
+  input: {
+    width: 50,
+    textAlign: 'center',
+  },
 });
