@@ -25,4 +25,7 @@ export default StyleSheet.create({
     width: 50,
     textAlign: 'center',
   },
+  summaryContainer: {
+    marginTop: 20,
+  },
 });
