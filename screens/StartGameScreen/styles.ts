@@ -27,5 +27,6 @@ export default StyleSheet.create({
   },
   summaryContainer: {
     marginTop: 20,
+    alignItems: 'center',
   },
 });

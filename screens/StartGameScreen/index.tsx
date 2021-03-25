@@ -8,8 +8,7 @@ import {
   Alert,
 } from 'react-native';
 import styles from './styles';
-import {Card, Input} from 'components';
-import NumberContainer from '../../components/NumberContainer';
+import {Card, Input, NumberContainer} from 'components';
 import {theme} from 'constants/theme';
 
 const StartGameScreen: React.FC = () => {
@@ -39,12 +38,13 @@ const StartGameScreen: React.FC = () => {
     setConfirmed(true);
     setEnteredValue('');
     setSelectedNumber(chosenNumber);
+    Keyboard.dismiss();
   };
   let confirmedOutput;
   if (confirmed) {
     confirmedOutput = (
       <Card style={styles.summaryContainer}>
-        <Text>you Selected </Text>
+        <Text>You Selected </Text>
         <NumberContainer>{selectdNumber}</NumberContainer>
         <Button title="START GAME" onPress={() => {}} />
       </Card>
